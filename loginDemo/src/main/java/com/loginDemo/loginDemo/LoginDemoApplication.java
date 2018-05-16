@@ -26,4 +26,5 @@ public class LoginDemoApplication extends SpringBootServletInitializer {
 	    public SessionFactory sessionFactory(HibernateEntityManagerFactory hemf) {
 	        return hemf.getSessionFactory();
 	    }
+		//changes for second branch
 }
